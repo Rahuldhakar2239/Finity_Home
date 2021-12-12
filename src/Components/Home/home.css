@@ -30,6 +30,12 @@
 .links {
   color: #59ffb0;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.links:hover{
+  text-decoration: none;
+  color: #59ffb0;
 }
 
 .main-div {
@@ -50,7 +56,6 @@
   font-size: 32px;
   line-height: 120%;
   letter-spacing: 0.02em;
-
   color: #ffffff;
 }
 .small-title {
@@ -71,11 +76,12 @@
   padding: 8px 20px 20px 20px;
   background: rgba(22, 18, 255, 0.2);
   width: 260px;
-  /* height: 205px; */
+  height: 205px; 
   box-shadow: inset -11.1667px 11.1667px 11.1667px rgba(255, 255, 255, 0.029),
     inset 11.1667px -11.1667px 11.1667px rgba(149, 149, 149, 0.029);
   backdrop-filter: blur(18.9833px);
   border-radius: 6px;
+ 
 }
 .title {
   font-family: "Playfair Display", serif;
@@ -87,10 +93,10 @@
   color: #ffffff;
 }
 .no {
-  font-family: "Playfair Display", serif;
+  font-family: 'Monstreat', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -192,3 +198,26 @@ letter-spacing: 0.02em;
 color: #6360FF;
 
 }
+
+#find{
+  
+font-family:'Montserrat',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 120%;
+/* identical to box height, or 17px */
+
+letter-spacing: 0.02em;
+
+color: #59FFB0;
+  
+}
+
+.Gif{
+  color:white; 
+  text-align:center;
+   margin-top: 160px;
+}
+
+
