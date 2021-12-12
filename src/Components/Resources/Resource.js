@@ -3,6 +3,7 @@ import res1 from "./Images/Res1.svg";
 import res2 from "./Images/Res2.svg";
 import res3 from "./Images/Res3.svg";
 import BottomImage from  "./Images/Bottom.svg";
+import Gif from "../Home/Images/animation.gif";
 import './Resource.css';
 
 function Resource() {
@@ -30,7 +31,8 @@ function Resource() {
                         <p className="ImgsubTitle">Coursework is organized with videos and optional practice exercises to reinforce your learning</p>
                     </div>
                 </div>
-                {/* <p>Find More</p> */}
+                 <p id="find">Find More</p> 
+                 <img src={Gif} id="gif"/>
             </div>
             <div>
                 <footer>
@@ -52,3 +54,4 @@ function Resource() {
 }
 
 export default Resource;
+
