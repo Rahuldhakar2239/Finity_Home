@@ -15,10 +15,10 @@ export default function Header(props) {
                 <img src={Logo} alt="Logo"></img>
             </div>
             <div className='finhome' style={{display: "flex",justifyContent:"center",textAlign:"center",marginRight:"auto"}}>
-                <a href="http://localhost:3000/">
+                <a href="https://inspiring-feynman-894dfd.netlify.app/">
                 <div className='mainpage' style={{color: "white" , paddingRight : "8px",fontFamily: 'Montserrat',fontStyle: "normal",fontWeight: "800",fontSize: "18px",lineHeight: "22px"}}><span onClick={() => setChoice(true)} className={Choice ? styles.homeff : styles.not}>HOME</span></div>
                 </a>
-                <a href="https://clone-of-stackoverflow.vercel.app/">
+               <a href="http://localhost:3000/">
                 <div className='forum' style={{color: "white" , paddingRight : "10px",fontFamily: 'Montserrat',fontStyle: "normal",fontWeight: "800",fontSize: "18px",lineHeight: "22px"}}><span onClick={() => setChoice(false)} className={Choice ? styles.not : styles.homeff}>FORUM</span></div>
                 </a>
             </div>
