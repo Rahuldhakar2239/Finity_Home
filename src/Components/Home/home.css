@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.section {
+  background-color: #050119;
+  min-height: 300vh;
+}
+
+.top-heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+.top-text,
+.top-textp2 {
+  margin-top: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 136%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.links {
+  color: #59ffb0;
+  cursor: pointer;
+}
+
+.main-div {
+  display: flex;
+}
+.top-Image {
+  width: 540px;
+  padding-right: 44px;
+}
+.module-div {
+  text-align: center;
+  margin-top: 12;
+}
+.module {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.small-title {
+  margin-top: 6px;
+  font-family: " Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 136%;
+  letter-spacing: 0.02em;
+  color: #59ffb0;
+}
+.cards-div {
+  margin-top: 40px;
+}
+.module-cards {
+  color: white;
+  padding: 8px 20px 20px 20px;
+  background: rgba(22, 18, 255, 0.2);
+  width: 260px;
+  /* height: 205px; */
+  box-shadow: inset -11.1667px 11.1667px 11.1667px rgba(255, 255, 255, 0.029),
+    inset 11.1667px -11.1667px 11.1667px rgba(149, 149, 149, 0.029);
+  backdrop-filter: blur(18.9833px);
+  border-radius: 6px;
+}
+.title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.no {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.chapter{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #78FFBE;
+
+}
+#progress{
+  height: 3px;
+  margin-top: -15px;
+  /* background-color: #d6ddda; */
+}
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+.check-update {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #59ffb0;
+  text-align: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.book-cards {
+  width: 220px;
+  height: 220px;
+  border-radius: 6px 6px 0px 0px;
+  border: none;
+}
+
+.book-des-div {
+  background: rgba(22, 18, 255, 0.2);
+  box-shadow: inset 11.1667px -11.1667px 11.1667px rgba(149, 149, 149, 0.029),
+    inset -11.1667px 11.1667px 11.1667px rgba(255, 255, 255, 0.029);
+  backdrop-filter: blur(18.9833px);
+  border-radius: 0px 0px 6px 6px;
+}
+
+.book-title {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.book-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #78ffbe;
+}
+
+.book-btn {
+  width: 81px;
+  height: 33px;
+  border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 4px;
+text-align: center;
+padding-top: 6px;
+cursor: pointer;
+margin-left: 52px;
+
+}
+
+.button{
+  font-family: 'Playfair Display',serif;
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+color: #6360FF;
+
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.main{
+    background-color:rgba(5, 1, 26, 1);
+    margin-top: 200px;
+    
+}
+
+.playlist{
+
+letter-spacing: 0.02em;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+color:white;
+text-align:center;
+
+}
+
+
+.playlists-heading{
+font-family:'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 136%;
+/* identical to box height, or 19px */
+
+letter-spacing: 0.02em;
+
+color: #59FFB0;
+text-align: center;
+}
+
+ .videos{
+    display: flex !important;
+    justify-content:space-evenly !important;
+} 
+
+.videos iframe{
+  display: flex;
+  margin-left: 20px;   
+}
+
+.videotext{
+    padding-left: 20px;
+    margin-top: 6px;
+}
+.videos1{
+    margin-top:20px;
+}
+
+.videos2{
+    margin-left:-100px;
+    margin-top:20px;
+}
+
+
+#title{
+ font-family:'Montserrat',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+
+/* identical to box height, or 17px */
+
+letter-spacing: 0.02em;
+color: white;
+
+}
+
+#title1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #59FFB0;
+    
+   
+
+}
