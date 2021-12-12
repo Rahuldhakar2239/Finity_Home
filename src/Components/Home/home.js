@@ -8,6 +8,8 @@ import Playlist from "../Playlist/Playlist";
 import Resource from '../Resources/Resource';
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import Gif from "../Home/Images/animation.gif";
+import {Link} from "react-scroll";
 import "./home.css"
 export default function Home() {
     return (
@@ -22,9 +24,9 @@ export default function Home() {
                                     <h3 className="top-heading">Free and open stock market and financial education</h3>
                                    
                                     <p className="top-text">Think of Finity as your new best friend, helping you towards your journey to Financial Literacy.
-                                        We have an extensive and in-depth collection of the stock market and financial <span className="links">lessons</span>,
-                                        along with an extensive collection of <span className="links">Books</span>, <span className="links">Podcasts</span>, <span className="links">Playlists</span>, & <span className="links">Resources</span> specifically curated by our Team to help you navigate to your Best Financially-educated self. It is openly accessible to everyone and is one of the largest financial education resources on the web.</p>
-                                    <p className="top-textp2 mt-4">Checkout & be a part of our community. Enter the <span className="links">Forum</span>.</p>
+                                        We have an extensive and in-depth collection of the stock market and financial <Link smooth={true} duration={300} to="section2" className="links">lessons</Link>,
+                                        along with an extensive collection of <Link smooth={true} duration={300} to="section3" className="links">Books</ Link>,  <Link smooth={true} duration={300} to="section4" className="links">Playlists</Link>, & < Link smooth={true} duration={300} to="section5" className="links">Resources</Link> specifically curated by our Team to help you navigate to your Best Financially-educated self. It is openly accessible to everyone and is one of the largest financial education resources on the web.</p>
+                                    <p className="top-textp2 mt-4">Checkout & be a part of our community. Enter the <Link smooth={true} duration={300} className="links">Forum</Link>.</p>
                                 </div>
                                 {/* </div> */}
 
@@ -122,13 +124,13 @@ export default function Home() {
                                     <p className="chapter">16 chapters</p>
                                     <ProgressBar id="progress" variant="success" now={60}></ProgressBar>
                                     </div>
-                                    <p className="card-text">As a trader in India, you should be informed of all the taxes that are levied on your investments and account. This module overlays the taxation countenance of Investing/Trading in the Markets. It also outlines the various essential topics like calculation of your turnover, how to prepare a balance sheet and the P&L statement, and further about how you can file your Income Tax Returns.</p>
+                                    <p className="card-text">As a trader in India, you should be informed of all the taxes that are levied on your investments and account. This module overlays the taxation countenance of Investing/Trading in the Markets... </p>
                                 </div>
                             </div>
 
                             <div className="col-lg-3 col-md-4 col-sm-6 col-8 cards-div">
                                 <div className="card module-cards">
-                                    <h4 className="title"><span className="no">8.</span> Currency, Commodity, and Government Securities</h4>
+                                    <h4 className="title"><span className="no">8.</span> Currency, Commodity, and ...</h4>
                                     <div>
                                     <p className="chapter">13 chapters</p>
                                     <ProgressBar id="progress" variant="success" now={60}></ProgressBar>
@@ -144,7 +146,7 @@ export default function Home() {
 
                 <div id="section3">
 
-                    <div className="container">
+                    <div className="container mx-auto">
                         <div className="row">
                             <div className="module-div">
                                 <h4 className="module">Books</h4>
@@ -155,7 +157,7 @@ export default function Home() {
                         <div className="row mt-5">
                             <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                                 <div className="card book-cards">
-                                    <img src={book1} />
+                                    <img src={book2} />
                                     <div className="card-body book-des-div">
                                         <h4 className="book-title">A Random Walk Down Wall Street</h4>
                                         <p className="book-text"> Burton Malkiel</p>
@@ -169,7 +171,7 @@ export default function Home() {
 
                             <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                                 <div className="card book-cards">
-                                    <img src={book2} />
+                                    <img src={book3} />
                                     <div className="card-body book-des-div">
                                         <h4 className="book-title">The Intelligent Investor</h4>
                                         <p className="book-text"> Benjamin Graham</p>
@@ -183,7 +185,7 @@ export default function Home() {
 
                             <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                                 <div className="card book-cards">
-                                    <img src={book3} />
+                                    <img src={book4} />
                                     <div className="card-body book-des-div">
                                         <h4 className="book-title">One Up on Wall Street</h4>
                                         <p className="book-text"> John Rothchild and Peter Lynch</p>
@@ -197,7 +199,7 @@ export default function Home() {
 
                             <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                                 <div className="card book-cards">
-                                    <img src={book4} />
+                                    <img src={book1} />
                                     <div className="card-body book-des-div">
                                         <h4 className="book-title">Little Book of Common Sense Investing</h4>
                                         <p className="book-text"> John C. Bogle</p>
@@ -208,14 +210,26 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                          
                         </div>
-
-
+                         
+                       
                     </div>
+                  
                 </div>
+              
+                <div className='Gif'>
+                <p id="find">Find More</p> 
+                <img src={Gif} id="gif"/>
+                    </div> 
+               
+               <div id="section4">
                 <Playlist/>
+                </div>
+              
+               <div id="section5">
                 <Resource/>
+                </div> 
             </div>
 
         </>
